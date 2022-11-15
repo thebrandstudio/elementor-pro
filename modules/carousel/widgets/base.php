@@ -533,7 +533,7 @@ abstract class Base extends Base_Widget {
 		?>
 		<div id="prueba" class="elementor-swiper">
 			<div class="<?php echo esc_attr( $settings['container_class'] ); ?> swiper-container">
-				<div class="swiper-wrapper">
+				<div class="swiper-wrapper" style="display: flex;">
 					<?php
 					foreach ( $settings['slides'] as $index => $slide ) :
 						$this->slide_prints_count++;
@@ -550,6 +550,19 @@ abstract class Base extends Base_Widget {
                 </div>
 							</div>
 						</div>
+
+						<div style="height: 60px; background: red;">
+							<a href="#" title="The Picture of Dorian Gray"><h3>The Picture of Dorian Gray</h3></a>
+							<div class="bottom_line border-bottom"></div>
+							<div class="author-info d-flex justify-content-between align-items-center">
+								<div class="author d-flex">
+									<img alt="" src="http://2.gravatar.com/avatar/b58996c504c5638798eb6b511e6f49af?s=32&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b58996c504c5638798eb6b511e6f49af?s=64&amp;d=mm&amp;r=g 2x" class="avatar avatar-32 photo img-rounded me-1" height="32" width="32" loading="lazy" decoding="async">                                        <h4 class="name">user</h4>
+								</div>
+							</div>
+						</div>
+
+
+
 					<?php endforeach; ?>
 				</div>
 				<?php if ( 1 < $slides_count ) : ?>
