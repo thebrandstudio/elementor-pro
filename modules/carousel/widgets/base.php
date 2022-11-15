@@ -531,7 +531,7 @@ abstract class Base extends Base_Widget {
 
 		$slides_count = count( $settings['slides'] );
 		?>
-		<div class="elementor-swiper">
+		<div id="prueba" class="elementor-swiper">
 			<div class="<?php echo esc_attr( $settings['container_class'] ); ?> swiper-container">
 				<div class="swiper-wrapper">
 					<?php
