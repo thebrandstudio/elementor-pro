@@ -550,11 +550,6 @@ abstract class Base extends Base_Widget {
                 </div>
 							</div>
 						</div>
-
-
-
-
-
 					<?php endforeach; ?>
 				</div>
 				<?php if ( 1 < $slides_count ) : ?>
