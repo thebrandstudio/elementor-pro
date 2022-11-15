@@ -540,7 +540,7 @@ abstract class Base extends Base_Widget {
 						?>
 						<div id="slider" class="swiper-slide">
 							<?php $this->print_slide( $slide, $settings, 'slide-' . $index . '-' . $this->slide_prints_count ); ?>
-							<div style="height: 20px; background: white;"></div>
+							<div style="height: 60px; background: red;"></div>
 						</div>
 
 					<?php endforeach; ?>
