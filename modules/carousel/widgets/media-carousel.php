@@ -344,7 +344,7 @@ class Media_Carousel extends Base {
 					<?php
 						Icons_Manager::render_icon( [
 							'library' => 'eicons',
-							'value' => 'eicon-play',
+							'value' => 'eicon-play-o',
 						], [ 'aria-hidden' => 'true' ] );
 					?>
 					<span class="elementor-screen-only"><?php echo esc_html__( 'Play', 'elementor-pro' ); ?></span>
