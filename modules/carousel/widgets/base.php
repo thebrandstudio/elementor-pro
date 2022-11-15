@@ -538,7 +538,7 @@ abstract class Base extends Base_Widget {
 					foreach ( $settings['slides'] as $index => $slide ) :
 						$this->slide_prints_count++;
 						?>
-						<div id="slider" class="">
+						<div id="slider" class="swiper-slide">
 							<?php $this->print_slide( $slide, $settings, 'slide-' . $index . '-' . $this->slide_prints_count ); ?>
 							<div style="height: 60px; background: red;">
 								<a href="#" title="The Picture of Dorian Gray"><h3>The Picture of Dorian Gray</h3></a>
