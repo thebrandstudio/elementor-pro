@@ -27,7 +27,7 @@ class Media_Carousel extends Base {
 	}
 
 	public function get_title() {
-		return esc_html__( 'Media Carousel', 'elementor-pro' );
+		return esc_html__( 'Media Carousel Prueba', 'elementor-pro' );
 	}
 
 	public function get_icon() {
